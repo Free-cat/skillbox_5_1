@@ -11,9 +11,9 @@ public class DrawXInAnAbsurdWay {
                 "x     x\n".toCharArray()
         };
 
-        for(int i = 0; i < table.length; i++){
-            for(int j = 0; j < table[i].length; j++){
-                System.out.print(table[i][j]);
+        for (char[] rows : table) {
+            for (char cells : rows) {
+                System.out.print(cells);
             }
         }
     }
